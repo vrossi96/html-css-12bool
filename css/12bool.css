@@ -93,11 +93,37 @@
 }
 
 /* *********************** nested positions *********************** */
+.content-start {
+  justify-content: start;
+  text-align: start;
+}
 .content-center {
   justify-content: center;
+  text-align: center;
+}
+.content-end {
+  justify-content: end;
+}
+/* align items */
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
   align-items: center;
 }
-
+.items-end {
+  align-items: flex-end;
+}
+/* align self */
+.align-s-flexstart {
+  align-self: flex-start;
+}
+.align-s-center {
+  align-self: center;
+}
+.align-s-flexend {
+  align-self: flex-end;
+}
 /* ************************* offset ************************** */
 .offset-12 {
   margin-left: 100%;

@@ -44,12 +44,12 @@
             <div class="col-6">6 col</div>
             <div class="col-1">1 col</div>
             <!-- 6th row nested -->
-            <div class="col-6 h-100 plr-25 d-flex content-center">
+            <div class="col-6 h-100 plr-25 d-flex content-center items-center">
                <div class="col-2">Nested 2 col</div>
                <div class="col-2">Nested 2 col</div>
                <div class="col-8">Nested 8 col</div>
             </div>
-            <div class="col-6 h-100 plr-25 d-flex content-center">
+            <div class="col-6 h-100 plr-25 d-flex content-center items-center">
                <div class="col-6">Nested 6 col</div>
                <div class="col-6">Nested 6 col</div>
             </div>
@@ -103,15 +103,28 @@
          </div>
          <!-- Nested -->
          <div class="row mt-25">
-            <div class="col-7 h-100 d-flex plr-25 content-center">
+            <div class="col-7 h-100 d-flex plr-25 content-center items-center">
                <div class="col-2"></div>
                <div class="col-8"></div>
                <div class="col-2"></div>
             </div>
-            <div class="col-5 h-100 d-flex plr-25 content-center">
+            <div class="col-5 h-100 d-flex plr-25 content-center items-center">
                <div class="col-6"></div>
                <div class="col-6"></div>
             </div>
+         </div>
+         <!-- Alignment -->
+         <div class="row mt-25">
+            <div class="col-6">start</div>
+            <div class="col-6 offset-3">center</div>
+            <div class="col-6 offset-6">end</div>
+            <!-- with big boxes -->
+            <div class="col-6 h-100"></div>
+            <div class="col-6">top</div>
+            <div class="col-6 h-100"></div>
+            <div class="col-6 align-s-center">middle</div>
+            <div class="col-6 h-100"></div>
+            <div class="col-6 align-s-flexend">bottom</div>
          </div>
       </div>
    </div>
