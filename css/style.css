@@ -5,7 +5,7 @@
   height: 50px;
 }
 
-.row > * > * {
+.row > * > div {
   background-color: #00e165;
   border: 1px solid #006cfa;
   height: 50%;

@@ -28,6 +28,9 @@
 .mt-25 {
   margin-top: 25px;
 }
+.mb-25 {
+  margin-bottom: 25px;
+}
 
 /* ****************** row ***************** */
 .row {
@@ -93,6 +96,7 @@
 }
 
 /* *********************** nested positions *********************** */
+/* Justify content */
 .content-start {
   justify-content: start;
   text-align: start;
@@ -103,6 +107,12 @@
 }
 .content-end {
   justify-content: end;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
 }
 /* align items */
 .items-start {
