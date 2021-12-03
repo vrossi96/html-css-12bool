@@ -1,0 +1,16 @@
+.blue-box,
+.green-box {
+  border: 1px solid white;
+  color: white;
+}
+
+.blue-box {
+  background-color: #006cfa;
+}
+.green-box {
+  background-color: #00e165;
+}
+
+.h-50 {
+  height: 50px;
+}
