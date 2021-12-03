@@ -1,16 +1,15 @@
-.blue-box,
-.green-box {
+.row > * {
+  background-color: #006cfa;
   border: 1px solid white;
   color: white;
-}
-
-.blue-box {
-  background-color: #006cfa;
-}
-.green-box {
-  background-color: #00e165;
-}
-
-.h-50 {
   height: 50px;
+}
+
+.row > * > * {
+  background-color: #00e165;
+  border: 1px solid white;
+}
+
+.h-100 {
+  height: 100px;
 }
